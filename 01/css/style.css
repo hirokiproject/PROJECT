@@ -1,0 +1,1780 @@
+/*
+
+New Event
+
+http://www.templatemo.com/tm-486-new-event
+
+*/
+
+body {
+		background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+		font-weight: 400;
+    background-color:
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+
+h3,h5 {
+  font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h3 {
+  line-height: auto;
+}
+
+h5 {
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+p {
+    color: #707070;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+
+
+/*---------------------------------------
+    General               
+-----------------------------------------*/
+
+#overview{
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+#purnaJual, #purnaJual2, #detail, #video,
+#speakers,#highlights, #hubungiKami, 
+#program,
+#sponsors, 
+#contact, footer {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+
+.judulHalaman{
+}
+
+.kumpulanBerita{
+  float: left;
+}
+
+#sukuCadang{
+    padding-bottom: 10rem;
+}
+
+.section-titleSukuCadang{
+  text-align: justify;
+}
+
+.section-titleTestimoni{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+#detail,
+#speakers,#highlights, #hubungiKami, #highlights, #sponsors,
+footer {
+  text-align: center;
+}
+
+#overview h3,
+#detail h3, #video h3,
+#register h3,
+#venue h3,
+#contact h3 {
+    padding-bottom: 12px;
+}
+
+#intro .btn,
+#contact .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#intro .btn-danger,
+#contact .btn-danger {
+    background: #f2545f;
+    border-color: transparent;
+}
+
+#contact .btn {
+  border-radius: 100px;
+}
+
+#intro .btn-danger:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#contact .btn-danger:hover {
+  background: #222;
+}
+
+#intro .btn-default:hover {
+    background: #ffffff;
+    color: #333333;
+    border-color: transparent;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-rotating-plane {
+  width: 50px;
+  height: 50px;
+  background-color: #222;
+  -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+
+@-webkit-keyframes sk-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+@keyframes sk-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+
+
+/*---------------------------------------
+    Navigation Links section              
+-----------------------------------------*/
+.custom-navbar {
+    margin-bottom: 0;
+    background-color: #C40001;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;  
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-toggle {
+    border: none;
+    margin: 0px;
+    margin-top: 8px;
+    margin-right: 20px;
+    background-color: white;
+}
+.custom-navbar .navbar-toggle .icon-bar {
+    background: black;
+}
+
+@media(min-width:768px) {
+    .custom-navbar.top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
+
+
+/*---------------------------------------
+    Intro section              
+-----------------------------------------*/
+#intro {
+    background: url('images/slide/a.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    color: 1px solid red;
+    text-align: center;
+}
+
+#intro h3 {
+  letter-spacing: 2px;
+}
+
+
+
+/*---------------------------------------
+   Overview  section              
+-----------------------------------------*/
+#overview img {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+
+
+/*---------------------------------------
+    Detail section              
+-----------------------------------------*/
+#detail, #purnaJual2, #purnaJual{
+    background: #222;
+    color: #ffffff;
+}
+
+#detail .fa, #purnaJual, #spesifikasi, #purnaJual2 .fa{
+  color: #f2545f;
+  font-size: 48px;
+}
+
+
+
+/*---------------------------------------
+    Video section              
+-----------------------------------------*/
+#video iframe {
+  border: none;
+}
+
+
+
+/*---------------------------------------
+   Speakers section              
+-----------------------------------------*/
+#speakers .container{
+  padding-top: 100px;
+}
+
+#speakers, #hubungiKami, #highlights{
+    background: #f9f9f9;
+}
+
+#speakers, #hubungiKami, #highlights h3{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+#speakers, #hubungiKami, #highlights h6{
+  color: #666;
+  margin-top: 4px;
+}
+
+#speakers, #hubungiKami, #highlights img {
+  width: auto;
+  max-width: 100%;
+  height: 200px;
+
+}
+
+#speakers, #hubungiKami, #highlights .col-md-12 {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+
+#speakers, #hubungiKami, #highlights .speakers-wrapper {
+    background: #ffffff;
+}
+
+
+/*---------------------------------------
+   Program section              
+-----------------------------------------*/
+#program h4 {
+    color: #808080;
+    font-size: 12px;
+}
+
+#program h3 {
+  margin-top: 16px;
+}
+
+#program .program-divider {
+    border: 1px solid #f9f9f9;
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+#program span {
+    padding-right: 12px;
+}
+
+#program img {
+  border-radius: 50%;
+}
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  color: #000000;
+  font-weight: 600;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 0px;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #f2545f;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: #999;
+}
+
+
+
+
+/*---------------------------------------
+   Faq section              
+-----------------------------------------*/
+#faq {
+  background: #f9f9f9;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#faq .panel-group {
+  margin-top: 32px;
+}
+
+#faq .panel-group .panel {
+  margin-bottom: 8px;
+}
+
+#faq .panel-default {
+  border: none;
+}
+
+#faq .panel-default>.panel-heading {
+  background: #f0f0f0;
+  color: #505050;
+}
+
+#faq .panel-heading {
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+  padding-top: 22px;
+  padding-left: 32px;
+  padding-bottom: 22px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"] {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
+  content: "-";
+  display: block;
+  position: absolute;
+  line-height: 1;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
+  content: "+";
+}
+
+
+
+/*---------------------------------------
+   Venue section              
+-----------------------------------------*/
+#venue {
+    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+#venue p {
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+
+
+/*---------------------------------------
+   Sponsors section              
+-----------------------------------------*/
+#sponsors img {
+  margin-top: 18px;
+}
+
+
+
+/*---------------------------------------
+   Contact section              
+-----------------------------------------*/
+#contact {
+    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contact .contact_des {
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+#contact .contact_detail {
+  background: #ffffff;
+  padding: 5rem 5rem 12rem 5rem;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #f2545f;
+}
+
+
+
+/*---------------------------------------
+   Footer section              
+-----------------------------------------*/
+footer {
+  background-attachment: fixed;
+}
+
+
+
+/* Back top */
+.go-top {
+  background-color: red;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.go-top:hover {
+    background: #f2545f;
+    color: #555;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/*---------------------------------------
+   Social icon             
+-----------------------------------------*/
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    color: #666;
+    border-radius: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-icon li a:hover {
+    background: #f2545f;
+    color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+   Responsive styles            
+-----------------------------------------*/
+@media (max-width: 980px) {
+
+  p {font-size: 13px;}
+
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  #intro { height: 65vh; }
+
+  #video iframe {
+    margin-top: 42px;
+  }
+
+  #contact .contact_detail {
+  background: #ffffff;
+  padding: 10rem 3rem 10rem 5rem;
+}
+
+}
+
+@media (max-width: 768px) {
+
+  .custom-navbar .navbar-brand {
+    line-height: 20px;
+  }
+
+  #overview img,  #detail .col-md-4, #purnaJual2 .col-md-4, #purnaJual, #spesifikasi .col-md-4,  #register form {
+    padding-top: 32px;
+  }
+
+  .nav-tabs > li > a {
+    font-size: 13px;
+  }
+
+  #program img {
+    padding-bottom: 32px;
+  }
+
+  #sponsors img {
+    padding-top: 22px;
+  }
+
+  #contact .contact_detail {
+    margin-top: 82px;
+  }
+
+}
+
+@media (max-width: 760px) {
+
+  #intro {
+    height: 100vh;
+  }
+
+}
+
+.logoSardana{
+  height: auto;
+}
+
+.logoSardana img{
+  height: 50px;
+  float: left;
+  margin: 10px auto;
+}
+
+.slideAtas{
+  margin-bottom: 10px;
+}
+
+.tengah{
+  text-align: center;
+  color: #E40613;
+}
+
+.tengah img{
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.alamatPurnaJual li{
+  margin-top: 10px;
+}
+
+.paddingPurnaJual img{
+  margin-top: 35px;
+}
+
+.kelangPurnaJual{
+  text-align: center;
+}
+
+.warnaPurnaJual h3, i{
+  color: #F2545F;
+}
+
+.ruangBerita{
+  margin-top: 20px;
+}
+
+.ruangBerita img{
+  width: 100%;
+}
+
+.ruangBerita p{
+  text-align: justify;
+}
+
+.tentangKamiReview{
+  text-align: justify;
+  float: left;
+}
+
+.tentangKamiReview .section-title{
+  float: left;
+  padding-bottom: 20px;
+}
+
+.deskripsiTentangKami{
+  margin: 0px 10px 100px 10px;
+}
+
+.deskripsiTentangKami i{
+  color: #707070;
+}
+
+.headerHubungiKami{
+  background-color: #222222;
+  border-radius: 5px;
+}
+
+.pembagianGolongan{
+  background-color: #222222;
+  border-radius: 5px;
+}
+
+.pembagianGolonganColtDiesel{
+  background-color: #222222;
+  border-radius: 5px;
+}
+
+.pembagianGolonganColtDiesel01{
+  background-color: #222222;
+  border-radius: 5px;
+}
+
+.headerHubungiKami h2{
+  color: white;
+  padding: 20px 50px 20px 0px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.pembagianGolongan h2{
+  color: white;
+  padding: 20px 0px 20px 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.pembagianGolonganColtDiesel h2{
+  color: white;
+  padding: 20px 0px 20px 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.pembagianGolonganColtDiesel01 h2{
+  color: white;
+  padding: 20px 0px 20px 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.headerHubungiKami02{
+  margin-top: -10px;
+  text-align: left;
+  font-size: 12px;
+  height: auto;
+  float: left;
+  width: 100%;
+}
+
+.headerHubungiKami02 .genap{
+  background-color: #E1E1E1;
+  padding-top: 20px;
+  height: fill;
+}
+
+.headerHubungiKami02 .genap button{
+  margin-bottom: 20px;
+}
+
+.headerHubungiKami02 .ganjil{
+  padding-top: 20px;
+  height: fill;
+}
+
+.headerHubungiKami02 .ganjil button{
+  margin-bottom: 20px;
+}
+
+.headerHubungiKami02 .tulisanTebal{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.kelangHubungiKami{
+  margin-top: 20px;
+}
+
+.hilang button{
+  visibility: hidden;
+}
+
+#register{
+  color: white;
+  padding: 10px;
+  background-color: #222222;
+  padding-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+
+.logoMit img{
+  float: right;
+  margin-top: 10px;
+}
+
+.namaPT{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.headerPhone{
+  font-size: 15px;
+  color: white;
+  margin-top: 25px;
+  float: left;
+  padding-left: 10px;
+}
+
+.kotakTypeMobil{
+  padding-bottom: 10px;
+  border-bottom: 2px solid grey;
+}
+
+.typeMobil{
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+.startFromKiri{
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.startFromKanan{
+  text-align: right;
+  color: red;
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+
+.jumlahTempatDuduk{
+  margin-top: 10px;
+  font-weight: bolder;
+  color: #546E7A;
+}
+
+.warnaMobil{
+  margin-top: 10px;
+}
+
+.warnaMerah{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #B66C3F;
+}
+
+.warnaKuning{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #C02424;
+}
+
+.warnaHijau{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #F4F4F4;
+}
+
+.warnaBiru{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #CCC8CE;
+}
+
+.warnaAbu{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #676B75;
+}
+
+
+.warnaPutih{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #25262D;
+}
+
+.warnaMerahPS{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #EDEDED;
+}
+
+.warnaKuningPS{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #F7F7F7;
+}
+
+.warnaHijauPS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ADADAD;
+}
+
+.warnaBiruPS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #533729;
+}
+
+.warnaAbuPS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #6B6B6B;
+}
+
+
+.warnaPutih01PS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #050505;
+}
+
+.warnaPutih02PS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #181818;
+}
+
+.warnaMeraROCKFORD{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #030303;
+}
+
+.warnaMerahM{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #850D24;
+  margin-left: 10px;
+}
+
+.warnaKuningM{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #18181A;
+}
+
+.warnaHijauM{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #B1111A;
+}
+
+.warnaBiruM{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #F3F3F6;
+}
+
+.warnaAbuM{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #3C3638;
+}
+
+.warnaMerahX{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #A20002;
+  margin-left: 10px;
+}
+
+.warnaKuningX{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #303132;
+}
+
+.warnaHijauX{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #AFB5BE;
+}
+
+.warnaBiruX{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #E6E6E6;
+}
+
+.warnaAbuX{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #F7F7F7;
+}
+
+.warnaMerahD{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #303132;
+  margin-left: 10px;
+}
+
+.warnaKuningD{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #EDEDEE;
+}
+
+.warnaHijauD{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #CCC8CE;
+}
+
+.warnaBiruD{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #454756;
+}
+
+.warnaMerahT{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #B40E12;
+  margin-left: 10px;
+}
+
+.warnaKuningT{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #202020;
+}
+
+.warnaHijauT{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #AEB4B2;
+}
+
+.warnaBiruT{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #AFB5BE;
+}
+
+.warnaAbuT{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #E6E6E6;
+}
+
+.warnaMerahL300{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #231F20;
+}
+
+.warnaMerahT120SS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #231F20;
+}
+
+.warnaKuningT120SS{
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  background-color: #E6E3E2;
+}
+
+.warnaHijauT120SS{
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #214290;
+}
+
+.lihatProduk .hubungiSaya{
+}
+
+.lihatProduk a, .hubungiSaya button{
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.alignJustify{
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.bg-info{
+  padding: 15px;
+  text-align: justify;
+}
+
+.containerNavigasi{
+  text-align: center;
+  background-color: #AEB4B2;
+  overflow: auto;
+  margin-top: 70px;
+}
+
+.containerNavigasi a{
+  font-weight: 900;
+  color: #303132;
+}
+
+.containerNavigasi .col-xs-3, .col-xs-4, .col-xs-5{
+  padding: 10px 0px;
+}
+
+.headerHubungiKami03 .ganjil{
+  overflow: all;
+
+}
+
+.speakers-wrapper{
+  margin-bottom: -20px;
+}
+
+.speakers-thumb .keteranganHighlights{
+  text-align: justify;
+  font-weight: none;
+  color: black;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.speakers-thumb .keteranganHighlights p{
+  color: red;
+  font-weight: bold;
+}
+
+.speakers-thumb h3{
+  border-bottom: 2px solid #808080;
+  height: 50px;
+}
+
+.speakers-wrapper img{
+  margin: 0px auto;
+}
+
+.section-title02 h2{
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+.section-title03 h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.internSpesifikasi{
+  padding: 0px 15px;
+  color: grey;
+  font-size: 15px;
+}
+
+table tr td, th{
+  text-align: center;
+}
+
+.carousel-inner img{
+  margin: 0px auto;
+}
+
+
+
+.pilihanWarnaMobil ol li{
+  width: 10%;
+  height: 20px;
+}
+
+.pilihanWarnaMobil ol .warna1 li{
+  background-color: #B66C3F;
+}
+
+.pilihanWarnaMobil ol .warna2 li{
+  background-color: #C02424;
+}
+
+.pilihanWarnaMobil ol .warna3 li{
+  background-color: #F4F4F4;
+}
+
+.pilihanWarnaMobil ol .warna4 li{
+  background-color: #CCC8CE;
+}
+
+.pilihanWarnaMobil ol .warna5 li{
+  background-color: #676B75;
+}
+
+.pilihanWarnaMobil ol .warna6 li{
+  background-color: #25262D;
+}
+
+.pilihanWarnaMobil ol .warnaPajero01 li{
+  background-color: #EDEDED;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaPajero02 li{
+  background-color: #F7F7F7;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaPajero03 li{
+  background-color: #ADADAD;
+}
+
+.pilihanWarnaMobil ol .warnaPajero04 li{
+  background-color: #533729;
+}
+
+.pilihanWarnaMobil ol .warnaPajero05 li{
+  background-color: #6B6B6B;
+}
+
+.pilihanWarnaMobil ol .warnaPajero06 li{
+  background-color: #050505;
+}
+
+.pilihanWarnaMobil ol .warnaPajero07 li{
+  background-color: #181818;
+}
+
+.pilihanWarnaMobil ol .warnaMirage01 li{
+  background-color: #850D24;
+}
+
+.pilihanWarnaMobil ol .warnaMirage02 li{
+  background-color: #18181A;
+}
+
+.pilihanWarnaMobil ol .warnaMirage03 li{
+  background-color: #B1111A;
+}
+
+.pilihanWarnaMobil ol .warnaMirage04 li{
+  background-color: #F3F3F6;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaMirage05 li{
+  background-color: #3C3638;
+}
+
+.pilihanWarnaMobil ol .warnaXpander01 li{
+  background-color: #A20002;
+}
+
+.pilihanWarnaMobil ol .warnaXpander02 li{
+  background-color: #303132;
+}
+
+.pilihanWarnaMobil ol .warnaXpander03 li{
+  background-color: #AFB5BE;
+}
+
+.pilihanWarnaMobil ol .warnaXpander04 li{
+  background-color: #E6E6E6;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaXpander05 li{
+  background-color: #F7F7F7;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaDelica01 li{
+  background-color: #303132;
+}
+
+.pilihanWarnaMobil ol .warnaDelica02 li{
+  background-color: #EDEDEE;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaDelica03 li{
+  background-color: #CCC8CE;
+}
+
+.pilihanWarnaMobil ol .warnaDelica04 li{
+  background-color: #454756;
+}
+
+.pilihanWarnaMobil ol .warnaTriton01 li{
+  background-color: #B40E12;
+}
+
+.pilihanWarnaMobil ol .warnaTriton02 li{
+  background-color: #202020;
+}
+
+.pilihanWarnaMobil ol .warnaTriton03 li{
+  background-color: #AEB4B2;
+}
+
+.pilihanWarnaMobil ol .warnaTriton04 li{
+  background-color: #AFB5BE;
+}
+
+.pilihanWarnaMobil ol .warnaTriton05 li{
+  background-color: #E6E6E6;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaT120ss01 li{
+  background-color: #231F20;
+}
+
+.pilihanWarnaMobil ol .warnaT120ss02 li{
+  background-color: #E6E3E2;
+  border: 1px solid lightgrey;
+}
+
+.pilihanWarnaMobil ol .warnaT120ss03 li{
+  background-color: #214290;
+}
+
+.pilihanWarnaMobil ol .warnaPajeroROCKFORD01 li{
+  background-color: #030303;
+}
+
+
+.containerNamaPT .menuColor1{
+  padding-right: 20px;
+}
+
+
+.containerNamaPT01{
+  background-color: #FFF;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
+.containernavbar{
+  border: 10px solid blue;
+  overflow: auto;
+}
+
+.glyphicon{
+  float: right;
+}
+
+.olPerawatan ol li{
+  font-weight: bold;
+}
+
+.olPerawatan ul li{
+  color: #707070;
+}
+
+.tabletengah table thead tr{
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+
+#fasilitas h2{
+  margin-bottom: 50px;
+}
+
+.kelangBengkel{
+  margin-top: 30px;
+}
+
+.gambarServis img{
+  margin: 20px auto;
+}
+
+.gambarHeaderServis{
+}
+
+.keluhan{
+  text-align: justify;
+}
+
+.kotak{
+  border: 1px solid red;
+  width: 100%;
+  float: left;
+}
+
+.kelangTentangKami{
+  float: left;
+}
+
+.layananMitsubishi{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.caption h4{
+  text-align: justify;
+
+}
+
+.thumbnail img{
+  width: 700px;
+  height:200px;
+}
+
+.thumbnail{
+  height: 550px;
+}
+
+.gambarNews01 img{
+  width: 100%;
+}
+
+.keteranganNews01, .tanggalNews01{
+  margin-top: 20px;
+}
+
+.tanggalNews01{
+  font-size: 20px;
+  float: left;
+  padding-bottom: 20px;
+  color: #676B75;
+  border-bottom: 2px solid #444;
+}
+
+.keteranganNews01 p{
+  font-size: 14px;
+  color: #333333;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.tanggalNews{
+  font-size: 15px;
+  color: #F2545F;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.kumpulanBerita{
+  text-align: left;
+}
+
+.formTestimoni{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+hr{
+  border: 2px solid #ABABAB;
+  border-radius: 10px;
+}
+
+.carousel-caption{
+  color: grey;
+  margin: 20px 0px 5px 0px;
+}
+
+.titleProduk{
+  text-align: center;
+  margin-top: 130px;
+}
+
+.gambarProduk a{
+  margin-bottom: 20px;
+}
+
+.tulisanTabelKiri{
+  text-align: left;
+}
+
+.kotakback01, .kotakback02 img{
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+
+.hovergambar a img{
+  width: 65%;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 12;
+  color: #fff;
+}
+
+.hovergambarMMKSI a img{
+  width: 65%;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 12;
+  color: #fff;
+}
+
+.hovergambar a img:hover{
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.hovergambarMMKSI a img:hover{
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
+#produk{
+  overflow: auto;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+#asdf{
+  overflow: auto;
+  height: auto;
+}
+
+.kotakMobil{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+.kotakMobil img{
+  width: 80%;
+}
+
+.jenisTulisanGaransi p, ul li{
+  color: #666666;
+}
+
+.kananTools1{
+  margin-top: 20px;
+  float: right;
+}
+
+.kananTools1 button{
+  margin-right: 5px;
+}
+
+.sectionPerincianKredit .thumbnail{
+  height: auto;
+}
+
+.sectionPerincianKredit .thumbnail .caption h3{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.uangMuka{
+  margin: 20px 20px 0px 20px;
+  text-align: center;
+  font-size: 11px;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.nilaiUangMuka{
+  margin: 0px 20px;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.masukSukuCadang{
+  margin: 10px;
+}
+
+.kelangCariNamaBarang{
+  margin-top: 20px;
+}
+
+.pesanKanan button{
+  float: right;
+}
+
+.bannerSimulasiKredit img{
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+
+
+.bannerTestimoni img{
+  position: relative;
+  z-index: 1;
+  height: 10%;
+  top: 0px;
+}
+
+.tombolSimulasiKredit a img{
+  width: 10%;
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  z-index: 12;
+  color: #fff;
+}
+
+.tombolSimulasiKredit a img:hover{
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
+.tombolHeaderInfoProduk a img{
+  width: 100%;
+  position: relative;
+  z-index: 12;
+  top: 0px;
+}
+
+.tombolHeaderInfoProduk a img:hover{
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+
+.ketentuan{
+  text-align: justify;
+  margin-right: 25px;
+}

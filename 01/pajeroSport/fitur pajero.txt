@@ -1,0 +1,93 @@
+01
+FCM - Forward Collision Mitigation System
+Fitur keselamatan yang mencegah terjadinya tabrakan dengan kendaraan di depan yang terdeteksi oleh radar FCM dengan cara mengatur sistem pengereman dari kendaraan (khusus varian Dakar 4X2 Ultimate)
+
+02
+UMS - Ultrasonic Misacceleration Mitigation System
+Fitur keselamatan berupa sensor yang akan menahan output mesin selama +- 5 detik saat kendaraan dalam kondisi berhenti / hampir berhenti untuk menghindari tabrakan yang disebabkan oleh kesalahan pengoperasian pedal gas (syarat kerja dan kondisi tertentu ) khusus varian Dakar 4x2 Ultimate
+
+03
+BSW - Blind Spot Warning
+Fitur yang akan mendeteksi kendaraan disekitar kita (jarak +- 3 menter) yang berada di area "blind spot" dan juga akan membantu pengendara saat berpindah jalur maupun berbelok. (khusus varian Dakar 4X2 Ultimate)
+
+04
+HDC
+Hill Descent Control Mengontrol kecepatan saat menurun
+
+05
+7 SRS Airbags & Passenger Airbag Indicator
+New Design: 18 inch Alloy Wheel Two Tone (Dakar) & 16inch Alloy Wheel (Exceed dan GLX)
+
+06
+ACC - Adaptive Cruise Control Sensor Kecepatan Adaptif
+Fitur yang dapat mempertahankan laju kendaraan pada kecepatan stabil tanpa menginjak pedal gas (cruise control) dan dilengkapi kemampuan menyesuaikan kecepatan dengan kendaraan di depan (adaptive) khusus varian Dakar 4X2 Ultimate
+
+07
+Beige Interior
+Desain Interior yang luxury dengan trim dan seat material leather menggunakan warna dasar beige serta dark brown wood print pada panel (khusus varian Dakar 4X2 Ultimate)
+
+08
+Tailgate Spoiler
+Tailgate / rear spoiler sebagai fitur standar ada varian Dakar 4X2 Ultimate
+
+09
+Dynamic Shield Front Face Design
+New Design: 18 inch Alloy Wheel Two Tone (Dakar) & 16 inch Alloy Wheel (Exceed dan GLX)
+
+10
+LED Headlamp
+LED Headlamp dengan Daytime Running Lights(DRL) dan Headlamp Washer untuk pencahayaan yang optimal
+
+11
+Unique LED Rear Combination Lamp
+Dengan desain unik membuat All new Pajero Sport tampil lebih segar
+
+12
+Auto Fold Door Mirror
+Auto fold door mirror dengan lampu sein menambah kesan stylish dan fungsional
+
+13
+New Alloy Wheel Design
+New Design: 18 inch Alloy Wheel Two Tone (Dakar) & 16 inch Alloy Wheel (Exceed dan GLX)
+
+14
+New Steering Wheel
+4-spoke Steering Wheel dengan Audio Steering Switch, Multi Arround View Monitor Control, MID Mode Selector dan pengaturan Tilt and Telescopic
+
+15
+Sunroof
+
+16
+9" Roof Monitor
+Terdapat roof monitor yang dapat terkoneksi dengan head unit untuk hiburan yang maksimal dalam perjalanan (khusus varian Dakar 4X2 Ultimate)
+
+17
+Power Seat Adjuster
+Dengan sistem pengaturan 8 arah secara elektrik di bangku pengemudi menambah kesan eksklusif dan menunjang kenyamanan
+
+18
+Dual Zone Automatic Air Conditioning
+Memberikan kenyamanan dan bebas mengatur temperatur udara pada posisi kanan & kiri bagian depan
+
+19
+Premium Entertainment System
+Premium Entertainment System dengan Navigasi dan Multi Arround View Monitor untuk mengemudi yang lebih menyenangkan dan parkir lebih mudah.
+
+20
+USB & HDMI Port
+
+21
+Super Select 4WD-II and Electric Parking Brake
+Fitur Super Select 4WD II memberikan kestabilan dan performa berkendara saat melewati berbagai medan antara lain Gravel (berkerikil), Mud/Snow (berlumpur / bersalju), Sand (berpasir), dan Rock (berbatuan).
+
+22
+New Engine Performance
+Mesin Diesel baru 4N152.4L MIVEC Turbocharged and Intercooled yang mampu menghasilkan tenaga besar dan akselerasi yang prima dan tetap efisien dalam penggunaan bahan bakar.
+
+23
+8 Speed AT with Off-Road Mode and Paddle Shift
+Merupakan transmisi 8 percepatan pertama di kelasnya. Off-Road Mode dan Paddle Shift menambah kepuasan berkendara dan kemudahan dalam berbagai kondisi jalan.
+
+24
+Keyless Operating System (KOS)
+Keyless Operating System (KOS) dengan tombol One Start Stop (OSS) mempermudah Anda membuka / menutup pintu dan menyalakan mesin tanpa kunci konvensional.
